@@ -7,7 +7,9 @@ using namespace std;
 int main()
 {
     //Tekst
-    string Tekst = "Ala ma kota a Ola ma psa";
+    string Tekst;
+    
+    getline(cin, Tekst);
 
     //Dzięki tej zmiennej w środkach wyrazów program wypisuje jeden myślnik, a nie kilka
     int NumerOstatniegoWypisanegoZnaku;
