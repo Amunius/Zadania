@@ -14,14 +14,14 @@ int main()
 
     for (int i = 0; i < Tekst.size(); i++)
     {
-        //Wykona się tylko podczas pierwszego przebiegu pętli
+        //Wykona się tylko podczas pierwszego przebiegu pętli jeżeli Tekst[i] nie będzie spacją
         if(i == 0 && Tekst[i] != 32)
         {
             cout << Tekst[i];
             NumerOstatniegoWypisanegoZnaku = i;
         }
 
-        //Wykona się tylko podczas ostatniego przebiegu pętli
+        //Wykona się tylko podczas ostatniego przebiegu pętli jeżeli Tekst[i] nie będzie spacją
         if(i == Tekst.size() - 1 && Tekst[i] != 32)
         {
             cout << Tekst[i];
