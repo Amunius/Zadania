@@ -1,2 +1,1 @@
-# Zadania
-Zadania
+Tutaj są zadania z informatyki :)
